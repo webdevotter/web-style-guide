@@ -10,24 +10,28 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
+
+    @media #{$brk-wide} {
+      padding: 10px 30px;
+    }
   }
   
   .default {
-    background-color: #51ddfc;
+    background-color: $color-default-button;
   }
   
   .error {
-    background-color: #e4757a;
+    background-color: $color-error-button;
   }
   
   .info {
-    background-color: #927bc1;
+    background-color: $color-info-button;
   }
   
   .success {
-    background-color: #63cc82;
+    background-color: $color-success-button;
   }
   
   .warning {
-    background-color: #fd7856;
+    background-color: $color-warning-button;
   }
