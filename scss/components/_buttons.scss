@@ -15,6 +15,7 @@
       background-color: $color-default-button;
       &:hover {
         background-color: $color-default-button-light;
+        @include fade;
       }
     }
     
@@ -22,6 +23,7 @@
       background-color: $color-error-button;
       &:hover {
         background-color: $color-error-button-light;
+        @include fade;
       }
     }
     
@@ -29,6 +31,7 @@
       background-color: $color-info-button;
       &:hover {
         background-color: $color-info-button-light;
+        @include fade;
       }
     }
     
@@ -36,6 +39,7 @@
       background-color: $color-success-button;
       &:hover {
         background-color: $color-success-button-light;
+        @include fade;
       }
     }
     
@@ -43,6 +47,7 @@
       background-color: $color-warning-button;
       &:hover {
         background-color: $color-warning-button-light;
+        @include fade;
       }
     }
 

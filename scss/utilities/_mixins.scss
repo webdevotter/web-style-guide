@@ -42,3 +42,9 @@
     display: flex;
     flex-direction: column;
 }
+
+// Fade-In
+
+@mixin fade {
+    transition: .3s ease-in;
+}
