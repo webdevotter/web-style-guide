@@ -1,0 +1,44 @@
+// Buttons
+
+@mixin buttons {
+    margin-top: 15px;
+    width: 100%;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+// Columns
+
+@mixin columns {
+    margin-top: 10px;
+    flex-basis: 100%;
+    min-height: 25px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+// Images
+
+@mixin center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@mixin images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    max-width: 100%;
+}
+
+// Display
+
+@mixin flex {
+    display: flex;
+    flex-direction: column;
+}

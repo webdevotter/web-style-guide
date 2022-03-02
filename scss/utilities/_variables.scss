@@ -1,9 +1,14 @@
 // Button Colors
 $color-default-button: #51ddfc;
+$color-default-button-light: lighten($color-default-button, 11%);
 $color-error-button:#e4757a;
+$color-error-button-light: lighten($color-error-button, 11%);
 $color-info-button:#927bc1;
+$color-info-button-light: lighten($color-info-button, 11%);
 $color-success-button:#63cc82;
+$color-success-button-light: lighten($color-success-button, 11%);
 $color-warning-button:#fd7856;
+$color-warning-button-light: lighten($color-warning-button, 11%);
 
 // Media Query
 $brk-wide: '(min-width: 768px)';

@@ -7,15 +7,12 @@
 
     @media #{$brk-wide} {
       max-width: 1400px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
+      @include center;
     }
   }
   
   .row {
-    display: flex;
-    flex-direction: column;
+    @include flex;
     padding: 1em 10px;
 
     @media #{$brk-wide} {
@@ -24,11 +21,7 @@
   }
   
   [class^=col] {
-    margin-top: 10px;
-    flex-basis: 100%;
-    min-height: 25px;
-    padding: 10px;
-    border-radius: 5px;
+    @include columns;
 
     @media #{$brk-wide} {
       display: flex;
